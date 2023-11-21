@@ -1,0 +1,10 @@
+.list-group-item{
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+    width: 100%;
+    outline: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
