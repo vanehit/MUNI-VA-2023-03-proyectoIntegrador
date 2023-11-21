@@ -1,8 +1,10 @@
 # MUNI-VA-2023-03-proyectoIntegrador
 
+
+
 ## React + Vite Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en desarrollar una aplicación web utilizando React para la gestión de una lista de tareas. Se emplearán componentes funcionales como base, y se utilizarán los hooks "useState" para la manipulación del estado de la aplicación. Además, se aprovechará el hook "useEffect" para gestionar efectos secundarios, y se implementarán eventos para facilitar la interacción del usuario con la aplicación. El objetivo es crear una interfaz intuitiva y eficiente que permita al usuario agregar, editar y eliminar tareas de manera sencilla.
 
 ### Official Plugins
 
@@ -24,3 +26,15 @@ To use this template for your React project:
 
    ```bash
    git clone https://github.com/your-username/MUNI-VA-2023-03-proyectoIntegrador.git
+
+   
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
