@@ -26,7 +26,7 @@ To use this template for your React project:
 
    ```bash
    git clone https://github.com/your-username/MUNI-VA-2023-03-proyectoIntegrador.git
-
+ 
    
 2. Install dependencies:
 

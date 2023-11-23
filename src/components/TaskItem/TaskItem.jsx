@@ -4,7 +4,7 @@ import './TaskItem.css'
 
 // Definimos el componente TaskItem con sus propiedades
 export default function TaskItem({ name, complete, taskComplete,taskDelete }) {
-//  clase "completed" si la tarea está completa
+//  clase "complete" si la tarea está completa
     return (
 
       <>

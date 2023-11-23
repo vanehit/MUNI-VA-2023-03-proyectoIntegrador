@@ -11,11 +11,8 @@ function App() {
   useEffect(() => {
     // Obtenemos las tareas almacenadas del localStorage, si no hay ninguna, asignamos un array vacío
     const storedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
-
-    // Imprimimos las tareas almacenadas en la consola
-    console.log("Stored tasks from localStorage:", storedTasks);
-    
-    // Por ejemplo, mostrar un mensaje
+       
+    // Por ejemplo, mostramos un mensaje de alerta cuando se haya actualizado la tarea
     alert("La lista de tareas se ha actualizado");
 
     // Actualizamos el estado local 'tasks' con las tareas almacenadas
@@ -36,7 +33,7 @@ function App() {
   const handleTaskDelete = (taskId) => {
     // Filtramos la tarea que se eliminará
     const updatedTasks = tasks.filter((task) => task.id !== taskId);
-     // Actualizamos el estado local 'tasks' con las tareas actualizadas (sin la tarea eliminada)
+     // Actualizamos el estado local 'tasks' con las tareas actualizadas (sin la eliminada)
     setTasks(updatedTasks);
 
     // Actualizamos el localStorage sin borrar las tareas almacenadas

@@ -10,7 +10,7 @@ function TaskForm({ tasks, setTasks }) {
   function addTask(event) {
     event.preventDefault(); // Prevenimos el comportamiento por defecto del formulario
 
-    // Verificamos si el campo 'name' no está vacío antes de agregar la tarea
+    // Verificamos si este campo no está vacío antes de agregar la tarea
     if (form.name.trim() === "") {
       alert("Por favor, ingresa una tarea válida.");
       return;
